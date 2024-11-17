@@ -1,7 +1,7 @@
 using UnityEngine;
 
 // Single Responsibility: Manages player score.
-public class ScoreManager : MonoBehaviour
+public class ScoreManager : MonoBehaviour, IScoreSystem
 {
     private static ScoreManager _instance;
     public static ScoreManager Instance
